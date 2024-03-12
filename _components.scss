@@ -1,1 +1,13 @@
 @use "./variables" as *;
+
+.navigation {
+    height: 10vh;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .button {
+        border-color: red;
+    }
+}
